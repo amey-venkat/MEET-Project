@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DF490691F64384400C952BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF490681F64384400C952BC /* AppDelegate.swift */; };
+		9DF4906B1F64384400C952BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4906A1F64384400C952BC /* ViewController.swift */; };
+		9DF4906E1F64384400C952BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF4906C1F64384400C952BC /* Main.storyboard */; };
+		9DF490701F64384400C952BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF4906F1F64384400C952BC /* Assets.xcassets */; };
+		9DF490731F64384400C952BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF490711F64384400C952BC /* LaunchScreen.storyboard */; };
+		9DF4907E1F64384400C952BC /* MEETTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4907D1F64384400C952BC /* MEETTests.swift */; };
+		9DF490891F64384400C952BC /* MEETUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF490881F64384400C952BC /* MEETUITests.swift */; };
+		9DF490991F643F8F00C952BC /* FacebookSDKs-iOS-4 in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF490971F64396400C952BC /* FacebookSDKs-iOS-4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DF4907A1F64384400C952BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF4905D1F64384400C952BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF490641F64384400C952BC;
+			remoteInfo = MEET;
+		};
+		9DF490851F64384400C952BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF4905D1F64384400C952BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF490641F64384400C952BC;
+			remoteInfo = MEET;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DF490651F64384400C952BC /* MEET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF490681F64384400C952BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DF4906A1F64384400C952BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DF4906D1F64384400C952BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DF4906F1F64384400C952BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF490721F64384400C952BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DF490741F64384400C952BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF490791F64384400C952BC /* MEETTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEETTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF4907D1F64384400C952BC /* MEETTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEETTests.swift; sourceTree = "<group>"; };
+		9DF4907F1F64384400C952BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF490841F64384400C952BC /* MEETUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEETUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF490881F64384400C952BC /* MEETUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEETUITests.swift; sourceTree = "<group>"; };
+		9DF4908A1F64384400C952BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF490971F64396400C952BC /* FacebookSDKs-iOS-4 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "FacebookSDKs-iOS-4"; path = "../../../Downloads/FacebookSDKs-iOS-4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF490621F64384400C952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF490991F643F8F00C952BC /* FacebookSDKs-iOS-4 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490761F64384400C952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490811F64384400C952BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF4905C1F64384400C952BC = {
+			isa = PBXGroup;
+			children = (
+				9DF490671F64384400C952BC /* MEET */,
+				9DF4907C1F64384400C952BC /* MEETTests */,
+				9DF490871F64384400C952BC /* MEETUITests */,
+				9DF490661F64384400C952BC /* Products */,
+				9DF490961F64396400C952BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF490661F64384400C952BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF490651F64384400C952BC /* MEET.app */,
+				9DF490791F64384400C952BC /* MEETTests.xctest */,
+				9DF490841F64384400C952BC /* MEETUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF490671F64384400C952BC /* MEET */ = {
+			isa = PBXGroup;
+			children = (
+				9DF490681F64384400C952BC /* AppDelegate.swift */,
+				9DF4906A1F64384400C952BC /* ViewController.swift */,
+				9DF4906C1F64384400C952BC /* Main.storyboard */,
+				9DF4906F1F64384400C952BC /* Assets.xcassets */,
+				9DF490711F64384400C952BC /* LaunchScreen.storyboard */,
+				9DF490741F64384400C952BC /* Info.plist */,
+			);
+			path = MEET;
+			sourceTree = "<group>";
+		};
+		9DF4907C1F64384400C952BC /* MEETTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF4907D1F64384400C952BC /* MEETTests.swift */,
+				9DF4907F1F64384400C952BC /* Info.plist */,
+			);
+			path = MEETTests;
+			sourceTree = "<group>";
+		};
+		9DF490871F64384400C952BC /* MEETUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF490881F64384400C952BC /* MEETUITests.swift */,
+				9DF4908A1F64384400C952BC /* Info.plist */,
+			);
+			path = MEETUITests;
+			sourceTree = "<group>";
+		};
+		9DF490961F64396400C952BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DF490971F64396400C952BC /* FacebookSDKs-iOS-4 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF490641F64384400C952BC /* MEET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF4908D1F64384400C952BC /* Build configuration list for PBXNativeTarget "MEET" */;
+			buildPhases = (
+				9DF490611F64384400C952BC /* Sources */,
+				9DF490621F64384400C952BC /* Frameworks */,
+				9DF490631F64384400C952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEET;
+			productName = MEET;
+			productReference = 9DF490651F64384400C952BC /* MEET.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DF490781F64384400C952BC /* MEETTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF490901F64384400C952BC /* Build configuration list for PBXNativeTarget "MEETTests" */;
+			buildPhases = (
+				9DF490751F64384400C952BC /* Sources */,
+				9DF490761F64384400C952BC /* Frameworks */,
+				9DF490771F64384400C952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF4907B1F64384400C952BC /* PBXTargetDependency */,
+			);
+			name = MEETTests;
+			productName = MEETTests;
+			productReference = 9DF490791F64384400C952BC /* MEETTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DF490831F64384400C952BC /* MEETUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF490931F64384400C952BC /* Build configuration list for PBXNativeTarget "MEETUITests" */;
+			buildPhases = (
+				9DF490801F64384400C952BC /* Sources */,
+				9DF490811F64384400C952BC /* Frameworks */,
+				9DF490821F64384400C952BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF490861F64384400C952BC /* PBXTargetDependency */,
+			);
+			name = MEETUITests;
+			productName = MEETUITests;
+			productReference = 9DF490841F64384400C952BC /* MEETUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF4905D1F64384400C952BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amey Venkatanarayan";
+				TargetAttributes = {
+					9DF490641F64384400C952BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9DF490781F64384400C952BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DF490641F64384400C952BC;
+					};
+					9DF490831F64384400C952BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DF490641F64384400C952BC;
+					};
+				};
+			};
+			buildConfigurationList = 9DF490601F64384400C952BC /* Build configuration list for PBXProject "MEET" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF4905C1F64384400C952BC;
+			productRefGroup = 9DF490661F64384400C952BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF490641F64384400C952BC /* MEET */,
+				9DF490781F64384400C952BC /* MEETTests */,
+				9DF490831F64384400C952BC /* MEETUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF490631F64384400C952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF490731F64384400C952BC /* LaunchScreen.storyboard in Resources */,
+				9DF490701F64384400C952BC /* Assets.xcassets in Resources */,
+				9DF4906E1F64384400C952BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490771F64384400C952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490821F64384400C952BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF490611F64384400C952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF4906B1F64384400C952BC /* ViewController.swift in Sources */,
+				9DF490691F64384400C952BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490751F64384400C952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF4907E1F64384400C952BC /* MEETTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF490801F64384400C952BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF490891F64384400C952BC /* MEETUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DF4907B1F64384400C952BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF490641F64384400C952BC /* MEET */;
+			targetProxy = 9DF4907A1F64384400C952BC /* PBXContainerItemProxy */;
+		};
+		9DF490861F64384400C952BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF490641F64384400C952BC /* MEET */;
+			targetProxy = 9DF490851F64384400C952BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DF4906C1F64384400C952BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF4906D1F64384400C952BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DF490711F64384400C952BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF490721F64384400C952BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DF4908B1F64384400C952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DF4908C1F64384400C952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DF4908E1F64384400C952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MEET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DF4908F1F64384400C952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MEET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9DF490911F64384400C952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MEETTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEETTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEET.app/MEET";
+			};
+			name = Debug;
+		};
+		9DF490921F64384400C952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MEETTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEETTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEET.app/MEET";
+			};
+			name = Release;
+		};
+		9DF490941F64384400C952BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MEETUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEETUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MEET;
+			};
+			name = Debug;
+		};
+		9DF490951F64384400C952BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MEETUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Amey.MEETUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MEET;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF490601F64384400C952BC /* Build configuration list for PBXProject "MEET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF4908B1F64384400C952BC /* Debug */,
+				9DF4908C1F64384400C952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF4908D1F64384400C952BC /* Build configuration list for PBXNativeTarget "MEET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF4908E1F64384400C952BC /* Debug */,
+				9DF4908F1F64384400C952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DF490901F64384400C952BC /* Build configuration list for PBXNativeTarget "MEETTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF490911F64384400C952BC /* Debug */,
+				9DF490921F64384400C952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DF490931F64384400C952BC /* Build configuration list for PBXNativeTarget "MEETUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF490941F64384400C952BC /* Debug */,
+				9DF490951F64384400C952BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF4905D1F64384400C952BC /* Project object */;
+}
